@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/582232ea00.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .background {
+            background-image: url(facebook.jpg);
+            height: 900px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 180px;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px 0px 50px;
+        }
+        .container a:hover{
+            color: goldenrod;
+        }
+
+        .container a {
+            text-decoration: none;
+            margin-right: 50px;
+            color: whitesmoke;
+            /* padding-top: 5px; */
+        }
+
+        .input-item {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+
+        }
+
+        .input-item input {
+            margin-top: 10px;
+            font-size: 15px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            
+            
+        }
+
+        .input-item input[type="submit"] {
+            background-color: goldenrod;
+            border: none;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="background">
+        <nav class="container">
+            <span>
+                <a href="">Home</a>
+                <a href="">Dashboard</a>
+                <a href="">Inventory</a>
+            </span>
+            <span>
+                <a href=""><i title="User" class="fa-solid fa-user"></i></a>
+                <a href=""><i title="Logout" class="fa-solid fa-right-from-bracket"></i></a>
+            </span>
+        </nav>
+        <section class="login-container">
+            <form class="input-item">
+                <h1>Please Login</h1>
+                <input type="email" name="" id="" placeholder="Your Email" required>
+                <input type="password" name="" id="" placeholder="Password" required>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </header>
+</body>
+
+</html>
